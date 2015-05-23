@@ -1,0 +1,6 @@
+before_install:
+  - sudo apt-get install -qq libsdl2-dev
+language: cpp
+compiler:
+  - clang
+  - gcc
