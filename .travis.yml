@@ -1,6 +1,9 @@
 before_install:
-  - sudo apt-get install -qq libsdl2-dev
+  - echo "before install"
 language: cpp
 compiler:
   - clang
   - gcc
+os:
+  - linux
+  - osx
